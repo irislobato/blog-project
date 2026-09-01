@@ -5,6 +5,7 @@ import "./DetalhesNoticia.css"
 
 export default function DetalhesNoticia() {
   const { id } = useParams();
+  
   const noticia = noticias.find((n) => n.id === Number(id));
 
   if (!noticia) {
