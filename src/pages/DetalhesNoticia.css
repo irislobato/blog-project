@@ -1,13 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
 }
-div h1{
-text-align: center;
-font-family: "Roboto";
-font-weight: 600;
-padding: 10px;
+.container-detalhes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titulo-detalhes {
+  font-family: "Roboto";
+  font-weight: 600;
+  padding: 10px;
+}
+.tema-detalhes {
+  margin-top: -10px;
+  color: gray;
+  font-size: 12px;
+}
+.titulo-noticias-detalhes {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+}
+.img-detalhes {
+  max-width: 600px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: auto;
+}
+.texto-detalhes{
+    font-size: 17px;
+    padding-inline: 100px;
+    margin: 20px;
+    text-align: justify;
+}
+.container-autor-data{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-inline: 120px;
+    margin-bottom: 25px;
+    color: gray;
+}
+.autor-detalhes{
+    color: black;
+    font-weight: 700;
 }
